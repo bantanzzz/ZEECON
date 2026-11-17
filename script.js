@@ -42,7 +42,7 @@ inquiryForm.addEventListener("submit", (event) => {
     "Project details:",
     formData.get("details") || "Not provided",
   ].join("\n");
-  const subject = `Zee Con project inquiry - ${formData.get("project")}`;
+  const subject = `Zeecon project inquiry - ${formData.get("project")}`;
   const mailto = `mailto:zeecon@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
 
   window.location.href = mailto;

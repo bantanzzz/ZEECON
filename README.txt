@@ -1,4 +1,4 @@
-ZEE CON WEBSITE — HTML, CSS & JAVASCRIPT
+ZEECON WEBSITE — HTML, CSS & JAVASCRIPT
 
 HOW TO RUN
 1. Extract this ZIP file.
@@ -13,5 +13,5 @@ The original Figma image assets could not be copied into this ZIP because the Fi
 Image selectors to update:
 .hero-photo-main, .hero-photo-overlap
 .image-plan, .image-design, .image-build
-.option-bathroom, .option-kitchen, .option-backyard, .option-basement
+.option-bathroom, .option-kitchen, .option-backyard
 .tile-one through .tile-six
