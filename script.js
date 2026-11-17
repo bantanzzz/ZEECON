@@ -60,7 +60,7 @@ window.addEventListener("scroll", updateHeader, { passive: true });
 
 const revealTargets = document.querySelectorAll(
   ".section-heading, .process-card, .process-lower, .finance-copy, .finance-sample, " +
-  ".options > h2, .option-card, .interior-heading, .interior-card, " +
+  ".options > h2, .option-card, .about-copy, .about-details, .interior-heading, .interior-card, " +
   ".gallery-copy, .gallery-mosaic, .inquiry-copy, .inquiry-form, .footer-intro, " +
   ".footer-description, .footer-column, .footer-bottom",
 );
