@@ -80,3 +80,11 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.scroll-reveal{opacity:1;transform:none;transition:none}.site-header{transition:none}}
 
 .option-bathroom{background-image:url("images/bathroom.jpeg")}
+
+.arrow-icon{display:inline-block;width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:middle}
+.button .arrow-icon{width:20px;height:20px;flex-shrink:0}
+.text-link .arrow-icon{width:16px;height:16px;margin-left:4px}
+.option-content a .arrow-icon{width:16px;height:16px;margin-left:20px}
+.interior-scroll-button .arrow-icon{width:20px;height:20px}
+.interior-hint .arrow-icon{width:15px;height:15px;margin-left:8px;color:#165a4a}
+.image-plan{background-image:url("images/done plan.png")}
