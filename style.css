@@ -80,7 +80,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.scroll-reveal{opacity:1;transform:none;transition:none}.site-header{transition:none}}
 
 .option-bathroom{background-image:url("images/bathroom.jpeg")}
-.option-sitting-room{background-image:url("images/palor.png")}
+.option-living-room{background-image:url("images/palor.png")}
 
 .arrow-icon{display:inline-block;width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:middle}
 .button .arrow-icon{width:20px;height:20px;flex-shrink:0}
@@ -89,3 +89,9 @@
 .interior-scroll-button .arrow-icon{width:20px;height:20px}
 .interior-hint .arrow-icon{width:15px;height:15px;margin-left:8px;color:#165a4a}
 .image-plan{background-image:url("images/done plan.png")}
+.process-lower{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:5%}
+.process-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.process-feature,.process-feature-new{min-height:280px;border-radius:12px;background-size:cover;background-position:center}
+.process-feature-new{background-image:url("images/finished design.jpeg")}
+@media(max-width:900px){.process-lower{grid-template-columns:1fr;gap:35px}.process-feature,.process-feature-new{min-height:220px}}
+@media(max-width:600px){.process-photos{grid-template-columns:1fr;gap:14px}.process-feature,.process-feature-new{min-height:240px}}
